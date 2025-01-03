@@ -1,0 +1,31 @@
+/* Active page styling */
+.nav-link.active {
+  background-color: #375a7f !important;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+/* Hover effect for nav links */
+.nav-link:hover {
+  background-color: #444 !important;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+/* Brand name styling */
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem !important;
+}
+
+/* Overall navbar styling */
+.navbar {
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  padding: 0.5rem 1rem;
+}
+
+/* Navigation link spacing and alignment */
+.nav-link {
+  padding: 0.5rem 1rem !important;
+  margin: 0 0.2rem;
+}
